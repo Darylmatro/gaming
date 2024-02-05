@@ -1,0 +1,166 @@
+/* PRÉCHARGER LES TYPOGRAPHIES */
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+/* Header */
+#logo img {
+    width: 150px; /* Modifiez la largeur selon vos besoins */
+    height: auto; /* La hauteur s'ajustera automatiquement pour maintenir les proportions */
+}
+
+
+header {
+    background-color: #00171f;
+    /* Menu/Header collant */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index {
+    text-align: center;
+    margin-top: 126px;
+    margin-bottom: 126px;
+    color: white;
+    
+  }
+  button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #333, #666);
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #666, #333);
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+    /* Page contact.php */
+main {
+    margin: 0 auto;
+    padding: 20px;
+    color: white
+}
+
+/* Style pour le paragraphe */
+main p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style pour le formulaire */
+form {
+    display: grid;
+    gap: 15px;
+}
+
+/* Style pour les labels des champs */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Style pour le bouton d'envoi */
+button {
+    background-color: #45a049; /* Couleur verte */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style pour le bouton d'envoi au survol */
+button:hover {
+    background-color: #27802b; /* Couleur verte plus foncée */
+}
+
+/* Body */
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: #00171f;
+    font-family: 'Poppins-Bold', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+color: #333;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    text-align: center;
+}
+
+article img {
+    display: flex;
+}
+
+figcaption {
+    color: white;
+    display: flex;
+}
+
+footer {
+    background-color: #00171f;
+    color: white;
+}
+
+/* Responsive - Media Query pour écrans de 1024 pixels et moins */
+@media only screen and (max-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
