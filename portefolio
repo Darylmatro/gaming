@@ -65,7 +65,7 @@
           <mxGeometry x="122.5" y="970" width="207.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="LwFXkiMRTGWDrpSkWC7P-35" value="Front-end" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="413" y="970" width="197" height="160" as="geometry" />
+          <mxGeometry x="410" y="970" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="LwFXkiMRTGWDrpSkWC7P-36" value="Email:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="280" y="1240" width="230" height="30" as="geometry" />
